@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    <!-- 首页gridview -->
+    <string-array name="home_grid_texts">
+        <item>转账</item>
+        <item>余额宝</item>
+        <item>手机充值</item>
+        <item>信用卡还款</item>
+        <item>淘宝电影</item>
+        <item>彩票</item>
+        <item>当面付</item>
+        <item>亲密付</item>
+        <item>机票</item>
+        
+    </string-array>
+    <array name="home_grid_imgs">
+        <item>@drawable/sit</item>
+        <item>@drawable/stand</item>
+        <item>@drawable/hunker</item>
+        <item>@drawable/walk</item>
+        <item>@drawable/run</item>
+        <item>@drawable/upstairs</item>
+        <item>@drawable/downstaris</item>
+        <item>@drawable/sleep</item>
+        <item>@drawable/more</item>
+    </array>
+
+</resources>

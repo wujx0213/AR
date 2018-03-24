@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/recognizetips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/recognizetips"/>
+    <Button 
+        android:id="@+id/beginRecognize"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="GO"/>
+    <Button 
+        android:id="@+id/stopRecognize"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Done"/>
+	<Button 
+        android:id="@+id/consentGiven2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/consent"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        
+        <TextView
+        android:id="@+id/showData1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data to show!" />
+    </ScrollView>
+</LinearLayout>

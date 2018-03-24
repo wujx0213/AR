@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dataCollect">数据采集</string>
+    <string name="modelTraining">训练</string>
+    <string name="actionRecognize">活动识别</string>
+    <string name="resultOfRecognition">结果查询</string>
+    <string name="beginCollect">开始</string>
+    <string name="stopCollect">结束</string>
+    <string name="clearAction">清除动作数据</string>
+    <string name="consent">心率授权</string>
+    <string name="recognizetips">按下下面的按钮后，将开始采集您的个人活动数据并上传服务器进行分析你接下来所做的一系列动作，您准备好了么？</string>
+</resources>
